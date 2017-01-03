@@ -1,9 +1,9 @@
-package com.roy
+package com.roy.actor_test
 
 /**
   * Created by BG244210 on 1/3/2017.
   */
-package object actor_test {
+object actor_test {
   import scala.actors.Actor
 
   def calculateSum(number: Int) = {
@@ -32,5 +32,4 @@ package object actor_test {
   def main(args: Array[String]): Unit = {
     calculateSum(10)
   }
-
 }
